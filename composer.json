@@ -28,16 +28,15 @@
     ],
 
     "require": {
-        "php": ">=7.0",
-        "laravel/framework": ">=5.3",
+        "php": "^8.2",
+        "laravel/framework": "^11.0",
         "psr/simple-cache": "^1.0|^2.0|^3.0",
-        "pragmarx/coollection": ">=0.6",
-        "pragmarx/countries": "dev-master"
+        "pragmarx/coollection": "^1.0",
+        "pragmarx/countries": "^1.0"
     },
 
     "require-dev": {
-        "orchestra/testbench": "~3.0|~4.0|~5.0",
-        "phpunit/phpunit": "~6.0|~7.0|~8.0|~9.0",
+        "phpunit/phpunit": "~6.0|~7.0|~8.0|~9.0|~10.0|~11.0",
         "squizlabs/php_codesniffer": "^2.3",
         "colinodell/json5": "^1.0|^2.0",
         "gasparesganga/php-shapefile": "^2.3"
@@ -47,6 +46,18 @@
         {
             "type": "vcs",
             "url": "https://github.com/captainbook/countries.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/captainbook/coollection.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/captainbook/ia-collection.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/captainbook/ia-arr.git"
         }
     ],
 
